@@ -1,0 +1,71 @@
+h1,
+h2 {
+  margin-left: 15px;
+}
+
+header {
+  border: 5px solid rgb(137, 242, 137);
+  border-radius: 8px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+nav {
+  border: 5px solid rgb(239, 150, 179);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+article {
+  border: 5px solid rgb(94, 189, 255);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.header2 {
+  border: 5px solid rgb(137, 242, 137);
+  border-radius: 8px;
+  height: 70px;
+  margin-bottom: 300px;
+}
+
+section {
+  border: 5px solid rgb(231, 98, 255);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.section2 {
+  border: 5px solid rgb(231, 98, 255);
+  border-radius: 8px;
+}
+
+footer {
+  border: 5px solid rgb(252, 255, 106);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.div-Aside {
+  border: 5px solid rgb(247, 219, 155);
+  border-radius: 8px;
+  width: 20%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+aside {
+  border: 5px solid rgb(122, 252, 252);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 300px;
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  float: left;
+  width: 80%;
+}

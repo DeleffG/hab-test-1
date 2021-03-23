@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #694f5d;
+}
+
+.title {
+  color: white;
+  font-size: 110px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.card {
+  width: 80%;
+  /*min-width: 400px;*/
+  box-shadow: 1px 1px 15px 4px #303030;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card-wrapper {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.image-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+.user-name {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.buttons-wrapper {
+  display: flex;
+  padding-bottom: 2rem;
+  margin-left: 14px;
+}
+
+.button-content {
+  margin-right: 12px;
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 99999px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.button-content:hover {
+  background-color: rgb(168, 168, 168);
+}
+
+.info-section {
+  background-color: #68a691;
+  color: white;
+  font-weight: 400;
+  padding: 10px 12px 24px 24px;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  flex-direction: column;
+  animation: oppaCityStyle 2s;
+}
+
+@keyframes oppaCityStyle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

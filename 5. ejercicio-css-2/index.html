@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio CSS - Número 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form method="GET" action="">
+
+    <fieldset>
+      <legend>
+        <label for="userName">* Nombre:</label>
+        <input class="required" type="text" name="userName" id="userName" required />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="email">* Correo electrónico:</label>
+        <input class="required" type="text" name="email" id="email" required />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="password">URL:</label>
+        <input type="password" name="password" id="password" placeholder="Escribe la URL de tu página web personal" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="date">Fecha de nacimiento</label>
+        <input type="date" name="date" id="date" value="1997-08-09" min="1997-08-09" max="2021-03-23" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="datetime">Fecha y hora</label>
+        <input type="time" name="datetime" id="datetime" min="10:00" max="21:50" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="cita-Mes">Mes</label>
+        <input type="month" name="cita-Mes" id="cita-Mes" min="2021-01" max="2021-12" value="2021-03" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="cita-Semana">Semana</label>
+        <input type="week" name="cita-Semana" id="cita-Semana" min="2021-W12" max="2021-W52" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="cita-Numero">Número</label>
+        <input type="number" name="cita-Numero" id="cita-Numero" min="-10" max="10" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="91-904-23-63" disabled />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="busqueda">Buscar en:</label>
+        <input type="search" name="busqueda" id="busqueda" disabled />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="favcolor">Color favorito</label>
+        <input type="color" name="favcolor" id="favcolor" value="#B833FF" />
+      </legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <button type="submit">Submit</button>
+      </legend>
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>

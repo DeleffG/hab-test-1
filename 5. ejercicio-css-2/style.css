@@ -1,0 +1,33 @@
+body {
+  max-width: 800px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.required {
+  border: 2px solid red;
+}
+
+fieldset {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+fieldset:hover {
+  background-color: gray;
+}
+
+fieldset:first-child {
+  border-bottom: 5px solid black;
+}
+
+fieldset:last-child {
+  border-bottom: 5px solid black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+}
