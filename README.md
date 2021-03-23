@@ -1,3 +1,3 @@
-# Hack a Boss - HTML y CSS
+# Hack a Boss - Repositorio - Pruebas de control 1
 
-Repositorio - Prueba de control 1.
+Ejercicios de HTML y CSS.
